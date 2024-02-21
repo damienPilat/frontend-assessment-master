@@ -1,0 +1,248 @@
+{
+  "data":[
+    {
+      "property":{
+        "id":"1YK15JGO",
+        "name":"Hotel Amsterdam",
+        "domain":"www.katanoxhotel.com",
+        "addressLine1":"Rokin 92",
+        "postcode":"1012 KZ",
+        "city":"Amsterdam",
+        "country":"Netherlands",
+        "rooms":43,
+        "currency":"EUR",
+        "timezone":"Europe/Amsterdam",
+        "starRating":5,
+        "description":"A fancy Hotel in the city centre, overlooking the IJ.",
+        "phoneNumber":"+41 009899554",
+        "email":"katanoxhotel@katanox.com",
+        "status":true,
+        "checkInTime":"16:00",
+        "checkOutTime":"10:00",
+        "isAvailableForPartnerships":true,
+        "images":[
+          {
+            "id":"KGQD001Y",
+            "url":"https://cdn.traveldata.io/katanox-inventory/hotels/1YK15JGO/media/image-0-20211130T161840641889.jpeg",
+            "width":1024,
+            "height":678
+          },
+          {
+            "id":"ZYR1J5WY",
+            "url":"https://cdn.traveldata.io/katanox-inventory/hotels/1YK15JGO/media/image-0-20220121T113756379250.jpeg",
+            "width":1170,
+            "height":780
+          },
+          {
+            "id":"KG4RN1QG",
+            "url":"https://cdn.traveldata.io/katanox-inventory/hotels/1YK15JGO/media/image-1-20220121T113756582552.jpeg",
+            "width":1171,
+            "height":780
+          },
+          {
+            "id":"OYD47R08",
+            "url":"https://cdn.traveldata.io/katanox-inventory/hotels/1YK15JGO/media/image-2-20220121T113756664003.jpeg",
+            "width":1170,
+            "height":780
+          },
+          {
+            "id":"EG5DVN1G",
+            "url":"https://cdn.traveldata.io/katanox-inventory/hotels/1YK15JGO/media/image-3-20220121T113756759262.jpeg",
+            "width":1074,
+            "height":806
+          }
+        ]
+      },
+      "policies":{
+        "noShowPolicies":[
+          {
+            "id":"LYJJN1Y5",
+            "name":"No-show",
+            "description":"In case of a no-show, 100% of your stay will be charged.",
+            "amount":100,
+            "chargeType":"percentage"
+          },
+          {
+            "id":"VY3NEXYP",
+            "name":"Test no-show",
+            "description":"test",
+            "amount":25,
+            "chargeType":"percentage"
+          },
+          {
+            "id":"LYJKO7G5",
+            "name":"72 hours",
+            "description":"Non-Refundable",
+            "amount":100,
+            "chargeType":"percentage"
+          }
+        ],
+        "cancellationPolicies":[
+          {
+            "id":"NGOPXP8D",
+            "name":"Flexible",
+            "description":"Free cancellation until 36 hours before arrival.",
+            "amount":100,
+            "chargeType":"percentage",
+            "reference":"prior-to-arrival",
+            "days":1,
+            "hours":14
+          },
+          {
+            "id":"NG9O4V84",
+            "name":"Flexible",
+            "description":"Free cancellation until check-in",
+            "amount":100,
+            "chargeType":"percentage",
+            "reference":"prior-to-arrival",
+            "days":0,
+            "hours":16
+          },
+          {
+            "id":"MGPZ038W",
+            "name":"Non Refundable",
+            "description":"No free cancellation",
+            "amount":100,
+            "chargeType":"percentage",
+            "reference":"after-booking",
+            "days":0,
+            "hours":0
+          },
+          {
+            "id":"ZY6QJ1YD",
+            "name":"Strict",
+            "description":"No free cancellation.",
+            "amount":100,
+            "chargeType":"percentage",
+            "reference":"after-booking",
+            "days":0,
+            "hours":0
+          },
+          {
+            "id":"1YK6Z4YO",
+            "name":"50% cancellation",
+            "description":"14 days prior to arrival, 50% of booking value will be charged for cancellations",
+            "amount":50,
+            "chargeType":"percentage",
+            "reference":"prior-to-arrival",
+            "days":14,
+            "hours":0
+          },
+          {
+            "id":"ZY63EMYD",
+            "name":"Multiple cp",
+            "description":"Non Refundable",
+            "amount":100,
+            "chargeType":"percentage",
+            "reference":"after-booking",
+            "days":0,
+            "hours":0
+          },
+          {
+            "id":"LYJKO7G5",
+            "name":"72 hours",
+            "description":"Non-Refundable",
+            "amount":100,
+            "chargeType":"percentage",
+            "reference":"after-booking",
+            "days":0,
+            "hours":0
+          },
+          {
+            "id":"782KX5Y9",
+            "name":"Test clx",
+            "description":"Test",
+            "amount":25,
+            "chargeType":"percentage",
+            "reference":"prior-to-arrival",
+            "days":0,
+            "hours":6
+          }
+        ]
+      }
+    },
+    {
+      "property":{
+        "id":"VY32018P",
+        "name":"Hotel Berlin",
+        "domain":"www.test.com",
+        "addressLine1":"Oranienburger Stra\u00dfe",
+        "postcode":"10117",
+        "city":"Berlin",
+        "country":"Germany",
+        "rooms":25,
+        "currency":"EUR",
+        "timezone":"Europe/Berlin",
+        "starRating":5,
+        "description":"A luxurious hotel at the heart of Berlin",
+        "phoneNumber":null,
+        "email":null,
+        "status":true,
+        "checkInTime":"8:00",
+        "checkOutTime":"10:00",
+        "isAvailableForPartnerships":true,
+        "images":[
+          {
+            "id":"1YK1NNJG",
+            "url":"https://cdn.traveldata.io/katanox-inventory/hotels/VY32018P/media/image-0-20211130T160958863447.jpeg",
+            "width":768,
+            "height":576
+          }
+        ]
+      },
+      "policies":{
+        "noShowPolicies":[
+          {
+            "id":"OYDJDWYX",
+            "name":"Non Refundable",
+            "description":"No free no-show",
+            "amount":100,
+            "chargeType":"percentage"
+          }
+        ],
+        "cancellationPolicies":[
+          {
+            "id":"1YK9N4YO",
+            "name":"Flexible",
+            "description":"Free cancellation until 36 hours before arrival.",
+            "amount":100,
+            "chargeType":"percentage",
+            "reference":"prior-to-arrival",
+            "days":1,
+            "hours":12
+          },
+          {
+            "id":"KGQJ0MY4",
+            "name":"Flexible",
+            "description":"Free cancellation until check-in",
+            "amount":100,
+            "chargeType":"percentage",
+            "reference":"prior-to-arrival",
+            "days":0,
+            "hours":14
+          },
+          {
+            "id":"ZYRWO38Q",
+            "name":"Non Refundable",
+            "description":"No free cancellation",
+            "amount":100,
+            "chargeType":"percentage",
+            "reference":"after-booking",
+            "days":0,
+            "hours":0
+          },
+          {
+            "id":"KG4E3OYX",
+            "name":"Strict",
+            "description":"No free cancellation.",
+            "amount":100,
+            "chargeType":"percentage",
+            "reference":"after-booking",
+            "days":0,
+            "hours":0
+          }
+        ]
+      }
+    }
+  ]
+}
