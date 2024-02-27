@@ -17,9 +17,13 @@ const columns = [
     dataIndex: "name",
   },
   {
-    title: "Actions",
-    render: (_: unknown, record: unknown) => <Button>Text</Button>,
+    title: "Details",
+    render: (_: unknown, record: unknown) => <Button path="details">View</Button>,
   },
+  {
+    title: "Policies",
+    render: (_: unknown, record: unknown) => <Button path="policies">View</Button>
+  }
 ];
 
 interface Property {
